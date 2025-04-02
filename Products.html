@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Our Treats and Products</title>
+        <link rel="stylesheet" href="Style.css">
+
+        <style>
+            .social-links li {
+            display: inline-block; /* Display links horizontally */
+            margin-right: 15px; /* Add some space between links */
+            }
+
+            .social-links li a {
+            text-decoration: underline; /* Remove default underline */
+            color: #333; /* Set a default text color */
+            }
+
+            .social-links li a:hover {
+            color: #3498db; /* Change text color on hover */
+            }
+
+            .social-links li a.facebook {
+            color: #0851ec; /* Facebook blue */
+            }
+
+            .social-links li a.instagram {
+            color: #f30530; /* Instagram red */
+            }
+
+            .social-links li a.tiktok {
+            color: #000; /* TikTok black */
+            }
+
+            #boxes {
+                        padding: 20px 0;
+                        text-align: center;
+                    }
+                    
+                    .container {
+                        width: 90%;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                    }
+                    
+                    .product-row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 20px;
+                        margin-bottom: 30px;
+                    }
+                    
+                    .box {
+                        flex: 1;
+                        min-width: 300px;
+                        max-width: 500px;
+                        background: #fff;
+                        border-radius: 10px;
+                        padding: 20px;
+                        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                        transition: transform 0.3s ease;
+                    }
+                    
+                    .box:hover {
+                        transform: translateY(-5px);
+                    }
+                    
+                    .image-container {
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                        margin-bottom: 15px;
+                    }
+                    
+                    .image-container img {
+                        width: 30%;
+                        height: 150px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+                    
+                    .box h3 {
+                        margin: 10px 0;
+                        color: #333;
+                    }
+                    
+                    .box p {
+                        color: #666;
+                        line-height: 1.5;
+                    }
+        </style>
+    </head>
+
+    <body>
+        <section id="hero">
+            <div class="hero-container">
+              <div class="wow fadeIn">
+                <div class="hero-logo">
+                  <img class="" src="aima's_delight.jpg" alt="Aima's Delight Pasteries" width="500" height="500">
+                </div>
+
+                <section id="showcase">
+                    <div class="container">
+                        <h1>Delicious Pastries</h1>
+                        <p>Try our delicious pastries and you will never regret it. You will
+                            always come back for more and introduce your friends and family to us.
+                        </p>
+                    </div>
+                </section>
+        
+                <section id="boxes">
+                    <div class="container">
+                        <div class="product-row">
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/4099124/pexels-photo-4099124.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                </div>
+                                <h3>Cupcakes</h3>
+                                <p>Try our delicious cupcakes and you will never regret it.</p>
+                            </div>
+                
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/6463660/pexels-photo-6463660.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/1028419/pexels-photo-1028419.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                </div>
+                                <h3>Milkshakes</h3>
+                                <p>Taste and savor our yummy milkshakes that comes in vanilla flavor, strawberry flavor, banana flavor, chocolate flavor, etc. We also offer a bit of mix flavors, either two different flavors or more, giving you the benefit of enjoying the best of every worlds!</p>
+                            </div>
+                        </div>
+                
+                        <div class="product-row">
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/867452/pexels-photo-867452.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/3656118/pexels-photo-3656118.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/3060255/pexels-photo-3060255.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                </div>
+                                <h3>Doughnuts</h3>
+                                <p>Come and enjoy our exquisite donuts which will leave you wanting more</p>
+                            </div>
+                
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/209206/pexels-photo-209206.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/1586947/pexels-photo-1586947.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/257843/pexels-photo-257843.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                </div>
+                                <h3>Bread</h3>
+                                <p>We have the best bread in town, with different flavours and fillings. Come and try it out.</p>
+                            </div>
+                        </div>
+                
+                        <div class="product-row">
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://i.pinimg.com/236x/78/73/41/7873413319a4600bf7a75ef3d78b8a64.jpg">
+                                    <img src="https://i.pinimg.com/236x/32/84/c2/3284c2a347d7a4566fb0062320082504.jpg">
+                                    <img src="https://i.pinimg.com/236x/4a/90/85/4a9085018e3c678efe8a4fc811ee17c4.jpg">
+                                </div>
+                                <h3>Small chops</h3>
+                                <p>Enjoy our African small chops on the go, at lunch or even as desert with ice-cream. The taste will explode in your mouth with different flavors.</p>
+                            </div>
+                
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/4262133/pexels-photo-4262133.jpeg?auto=compress&cs=tinysrgb&w=400">
+                                    <img src="https://i.pinimg.com/236x/83/27/f2/8327f2b4e78ba43ea01a86147980e01d.jpg">
+                                    <img src="https://i.pinimg.com/236x/fa/fd/d2/fafdd2f177b2e7aaaeb2bf3fe99c8e64.jpg">
+                                </div>
+                                <h3>Cookies</h3>
+                                <p>Come have a blast of our tasty and delightful cookies with different fillings, that can be eaten with milk, tea, coffee, milkshakes or even fruit juice.</p>
+                            </div>
+                        </div>
+                
+                        <div class="product-row">
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://i.pinimg.com/474x/76/9e/c1/769ec108357f088b64a91455f47bc4cd.jpg">
+                                    <img src="https://i.pinimg.com/236x/03/d4/b1/03d4b1563efdbd8325785d856f812bb9.jpg">
+                                    <img src="https://i.pinimg.com/236x/9f/91/9f/9f919f0adbf95bdf7426979868f56b46.jpg">
+                                </div>
+                                <h3>Cakes</h3>
+                                <p>Taste our delicious cakes and order for birthdays, weddings, baby shower, bridal showers, casual events, etc.</p>
+                            </div>
+                
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://i.pinimg.com/236x/e6/fb/b8/e6fbb8b499e830b36c99b9da2751e530.jpg">
+                                    <img src="https://i.pinimg.com/236x/a9/9b/8c/a99b8c61829fbfac36fa110193009f59.jpg">
+                                    <img src="https://i.pinimg.com/236x/4d/ec/a9/4deca9b61a6b7a7e26e604483badc739.jpg">
+                                </div>
+                                <h3>Meatpies</h3>
+                                <p>Enjoy our African yummy meatpies, that nourishes and jiggles your taste buds.</p>
+                            </div>
+                        </div>
+                
+                        <div class="product-row">
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://i.pinimg.com/236x/06/19/74/0619743da783ded31e7b3cf1ba0733e2.jpg">
+                                    <img src="https://i.pinimg.com/236x/7c/e3/9d/7ce39d3504188d29c6343ddedbdf2fd8.jpg">
+                                    <img src="https://images.pexels.com/photos/110934/pexels-photo-110934.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                </div>
+                                <h3>Biscuits</h3>
+                                <p>Our biscuits are flavored and good for any occasion. You can use it as snacks on a regular day or for events. They come in various flavors and shapes to suit your preferences.</p>
+                            </div>
+                
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/12644589/pexels-photo-12644589.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://media.istockphoto.com/id/1411510281/photo/pecan-apple-and-pumpkin-pies.jpg?b=1&s=612x612&w=0&k=20&c=R_hem0s74UmEj4yzdZI7Xfhtefti0Nlo3VUSHqu2YeI=">
+                                </div>
+                                <h3>Croissants, Cheesecakes & Pies</h3>
+                                <p>Indulge in our heavenly croissants, creamy cheesecakes, and delightful pies. Perfectly baked to satisfy your cravings, these treats are a must-try for any occasion!</p>
+                            </div>
+                        </div>
+                
+                        <div class="product-row">
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://images.pexels.com/photos/16220861/pexels-photo-16220861/free-photo-of-close-up-of-ice-cream.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/28735384/pexels-photo-28735384/free-photo-of-delicious-almond-fig-ice-cream-dessert.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://media.istockphoto.com/id/1922618743/photo/assorted-of-scoops-ice-cream-colorful-set-of-ice-cream-of-different-flavours-side-view-of-ice.jpg?b=1&s=612x612&w=0&k=20&c=DUxMQ6lkBeNKsTrpamOEuVYQOEpKS0ezzf_yvwc4w9U=">
+                                </div>
+                                <h3>Ice-cream</h3>
+                                <p>Experience the creamy delight of our premium ice-cream, available in a variety of flavors to tantalize your taste buds. Perfect for a sunny day or as a sweet treat after a meal, our ice-cream is crafted to bring joy to every scoop!</p>
+                            </div>
+                
+                            <div class="box">
+                                <div class="image-container">
+                                    <img src="https://media.istockphoto.com/id/158268808/photo/fresh-citrus-juices.jpg?b=1&s=612x612&w=0&k=20&c=yh205RDHUV9VlxUwmu2nBo9DC8TB2qMl2h6g8lslL2M=">
+                                    <img src="https://images.pexels.com/photos/96620/pexels-photo-96620.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                    <img src="https://images.pexels.com/photos/1233319/pexels-photo-1233319.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                </div>
+                                <h3>Fruit Juice</h3>
+                                <p>Quench your thirst with our refreshing fruit juices, made from the freshest fruits to deliver a burst of natural flavor in every sip. Perfectly paired with our pastries or enjoyed on their own, our fruit juices are a healthy and delicious way to brighten your day!</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+    </body>
+
+    <h2>Connect with Our Page:</h2>
+
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/your_instagram_handle/" target="_blank"><img src="Instagram_logo.jpg" alt="Instagram" width="100" height="100"></a></li>
+            <li><a href="https://www.facebook.com/your_facebook_page/" target="_blank"><img src="Facebook_logo.jpg" alt="Facebook" width="100" height="100"></a></li>
+            <li><a href="https://www.tiktok.com/@your_tiktok_handle/" target="_blank"><img src="TikTok_logo.jpg" alt="TikTok" width="100" height="100"></a></li>
+        </ul>
+    
+    <footer>
+        &copy Copyright Aima's Delight Pasteries. 2025. All Rights Reserved.
+    </footer>
+
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About Our Company</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .social-links li {
+            display: inline-block; /* Display links horizontally */
+            margin-right: 15px; /* Add some space between links */
+            }
+
+            .social-links li a {
+            text-decoration: underline; /* Remove default underline */
+            color: #333; /* Set a default text color */
+            }
+
+            .social-links li a:hover {
+            color: #3498db; /* Change text color on hover */
+            }
+
+            .social-links li a.facebook {
+            color: #0851ec; /* Facebook blue */
+            }
+
+            .social-links li a.instagram {
+            color: #f30530; /* Instagram red */
+            }
+
+            .social-links li a.tiktok {
+            color: #000; /* TikTok black */
+            }
+
+            #hero {
+            background: linear-gradient(rgba(23, 24, 26, 0.7), rgba(148, 188, 247, 0.7)), 
+            url(https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=1600) center/cover no-repeat fixed;
+            min-height: 100vh;
+            width: 100%;
+            padding: 80px 0;
+            position: relative;
+            }
+
+            /* Responsive */
+        @media (max-width: 768px) {
+            .hero-logo img {
+                max-width: 200px;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .member {
+                max-width: 100%;
+            }
+            
+            .social-links a {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .wow.fadeIn {
+            animation: fadeIn 1s both;
+        }
+
+        .wow.fadeInUp {
+            animation: fadeIn 1s both;
+        }
+
+        </style>
+
+        <link rel="stylesheet" href="Style.css">
+    </head>
+
+    <body>
+        <section id="hero">
+            <div class="hero-container">
+              <div class="wow fadeIn">
+                <div class="hero-logo">
+                  <img class="" src="aima's_delight.jpg" alt="Aima's Delight Pasteries" width="500" height="500">
+                </div>
+
+        <!-- Team Members Section -->
+         <section id="team">
+           <div class="row">
+             <div class="container wow fadeInUp">
+               <div class="col-md-12">
+
+                  <section id="team">
+                    <div class="container wow fadeInUp">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h1 class="section-title">Our Team</h1>
+                            <div class="section-title-divider"></div>
+                                
+        <h1 class="section-title">Meet the faces behind the Creative Masterpieces</h1>
+        <p>From the creative artisits, to the bakers and chefs and then the marketing 
+            team, we are proud to call ourselves the outstanding faces behind Aima's 
+            Delicious Pasteries.
+        </p>
+
+        <ul>
+            <li>Marketing Strategist</li>
+            <li>Head Baker</li>
+            <li>Sales Manager</li>
+            <li>Head Decorative Artist</li>
+            <li>Sous Chef</li>
+            <li>Production Manager</li>
+        </ul>
+
+        <div class="row justify-content-center">  <!-- Added justify-content-center for horizontal centering -->
+            <div class="col-md-3 mb-4">  <!-- Added mb-4 for bottom margin -->
+                <div class="member mx-2">  <!-- Added mx-2 for horizontal spacing -->
+                    <div class="pic"><img src="Emmanuella.jpg" alt="Emmanuella A. Ileogben" width="300" height="400" class="img-fluid"></div>
+                    <h4>Emmanuella A. Ileogben</h4>
+                    <span>Chief Executive Officer</span><br>
+                    <p>The CEO defines the bakery's long-term vision and mission, including its brand identity, market positioning, and growth objectives.
+                       She also ensures the efficient and effective operation of all aspects of the bakery, from production and quality control to sales and 
+                       customer service. She oversees the procurement of ingrdients and supplies, ensuring a reliable supply chain. She sets the company's culture 
+                       and has a deep understanding of the bakery industry, including trends, techniques, and ingredients.
+                    </p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/b_aimalohi/?igsh=MWJxbHV3bHB6aTZsZw%3D%3D" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/emmanuella.ileogben.71" target="_blank" rel="noopener noreferrer" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="mailto:emmanuellaileogben@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/emmanuella-ileogben-13b024213/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-3 mb-4">
+                <div class="member mx-2">
+                    <div class="pic"><img src="Aide_Leo.jpg" alt="Emmanuel Aidelokhai Ileogben" height="400" width="300" class="img-fluid"></div>
+                    <h4>Emmanuel Aidelokhai Ileogben</h4>
+                    <span>Sales Manager</span>
+                    <p>Our Sales Manager develops and implements sales strategies to increase revenue and market share. 
+                            He builds and maintains relationships with customers, suppliers, and partners. He also analyzes 
+                            sales data and market trends to identify opportunities for growth and improvement.</p>
+                    <div class="social">
+                        <a href="https://www.twitter.com/_leothegreat_" target="_blank" rel="noopener noreferrer" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>  
+                        <a href="mailto:aidelokhaiileogben@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/leothegr8._" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/emmanuelaidelokhaiileogben" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-3 mb-4">
+                <div class="member mx-2">
+                    <div class="pic"><img src="Divine.jpg" alt="Divine Ekeze Favour" height="300" width="300" class="img-fluid"></div>
+                    <h4>Divine Ekeze Favour</h4>
+                    <span>Head Decorative Artist</span>
+                    <p>Our Head Decorative Artist designs and creates visually stunning decorations for cakes and pastries. 
+                        She stays updated with the latest trends in cake decoration and pastry arts. She also trains and 
+                        supervises junior decorators to maintain high-quality standards. Her artistic vision enhances the 
+                        aesthetic appeal of all our products.</p>
+                    <div class="social">
+                        <a href="https://www.twitter.com/deeTechGurl" target="_blank" rel="noopener noreferrer" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>  
+                        <a href="mailto:ekezedivinefavour@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/di_vinne" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ekezedivinefavour" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+             </div>
+               </div>
+                 </div>
+                    </section>
+
+        <section id="about">
+            <div class="container wow fadeInUp">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="section-title">Our Services</h2>
+                  <div class="section-title-divider"></div>
+                  <p class="section-description">We offer all-round fun and entertainment; Our pasteries aren't just baked, they are creafted. 
+                    Using premium butter, organic flour, and European techniques, we turn desserts into edible art. Our menu has a wide range 
+                    of freshly baked pasteries, made from time-tested recipes with a bite and a warm hug of nostalgia to cater all ages.
+                </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="container about-container wow fadeInUp">
+              <div class="row">
+                <div class="col-md-6 col-md-push-6 about-content">
+                  <h2 class="about-title">We pair our baked treats with freshly squizzed juices and milkshakes</h2>
+                  <p class="about-text">
+                    Unwind and savor the moment when you have a bite at Aima's Delight Pasteries. Our carefully curated selection of flavour, 
+                    and decadent treats bites provides the perfect setting for a relaxing evening or afternoon.
+                    Enjoy our cozy atmosphere, light music, and friendly service while at our store.
+                  </p>
+                </div>
+                </div>
+            </div>
+
+                  
+            <p class="about-text">
+                    Experience the vibrant flavors being served at our store, Aima's Delight Pasteries. For every occasion, every craving, we bake happiness. 
+                    Indulge your senses into our dreamy desserts and our freshly baked delights, lif's too short for boring desserts and fillings; taste the extraordinary.
+                    Our stylish and energetic atmosphere makes us the perfect spot for a day out with friends and family. Discover your new favorite pastery shop o have a blast.
+                  </p>
+                  <p class="about-text">
+                    Celebrate every moments with one of our special falvoured cakes and treats with your guests, family and friends. The staff are also welcoming and friendly, they cater
+                    to your needs as soon as you step into the store/shop or you place an order. Find the perfect destination for lunch with friends, conference meetings, a date with our partners/
+                    spouses. The ambiance is warm and inviting. The menu is fresh and hot, ready to be devoured as soon as your orders are placed. 
+                  </p>
+                
+          </section>
+        
+    </body>
+
+    <h2>Connect with Our Page:</h2>
+
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/your_instagram_handle/" target="_blank"><img src="Instagram_logo.jpg" alt="Instagram" width="100" height="100"></a></li>
+            <li><a href="https://www.facebook.com/your_facebook_page/" target="_blank"><img src="Facebook_logo.jpg" alt="Facebook" width="100" height="100"></a></li>
+            <li><a href="https://www.tiktok.com/@your_tiktok_handle/" target="_blank"><img src="TikTok_logo.jpg" alt="TikTok" width="100" height="100"></a></li>
+              </ul>
+        </ul>
+    
+    <footer>
+        &copy Copyright Aima's Delight Pasteries. 2025. All Rights Reserved.
+    </footer>
+</html>

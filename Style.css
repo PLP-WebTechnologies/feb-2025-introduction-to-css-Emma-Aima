@@ -1,0 +1,163 @@
+/* Style Changes for all the page in this business Portfolio */
+
+/* General Section */
+#about {
+    background: #94bcf7;
+    padding: 80px 0;
+  }
+  
+  #hero {
+    background: linear gradient (rgba(22, 22, 17, 0.6), rgba(38, 39, 32, 0.37))
+    url(https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=400.jpg) fixed center no-repeat;
+    background-size: cover;
+    min-height: 100vh; /* Ensures it covers full viewport height */
+    width: 100%;
+  }
+
+#hero .hero-logo {
+    margin: 20px;
+  }
+  
+#hero .hero-logo img {
+    max-width: 100%;
+  }
+  
+#hero .hero-container {
+    background: rgba(106, 195, 250, 0.8);
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+p {
+font-size: 18px;
+color: black;
+padding: 0;
+text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.highlight {
+    color: white;
+    font-size: 20px;
+}
+img {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 20px 300px;
+    padding: 30px;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-size: 28px;
+    font-weight: 400;
+    Color: rgb(209, 10, 10);
+    font-family: "Raleway", sans-serif;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+h3, h4, h5 {
+    font-weight: 300;
+    color: rgb(15, 6, 154);
+    font-family:Cambria, Cochin, Georgia;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.about-text {
+    line-height: 26px;
+  }
+
+/* Team Members Section */
+#team {
+    background: #f3bae4;
+    padding: 80px 0 60px 0;
+  }
+  
+  #team .member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #team .member .pic {
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+  }
+  
+  #team .member h4 {
+    font-weight: 800;
+    margin-bottom: 2px;
+  }
+  
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  #team .member .social {
+    margin-top: 15px;
+  }
+  
+  #team .member .social a {
+    color: #063308;
+  }
+  
+  #team .member .social a:hover {
+    color: #f4f80d;
+  }
+  
+  #team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+
+/* Social Media Icons Styling */
+.social a {
+    display: inline-block;
+    margin: 0 7px;
+    color: #0a1bd5;
+    font-size: 22px;
+    transition: all 0.3s ease;
+  }
+  
+  .social a:hover {
+    transform: translateY(-3px);
+  }
+  
+  .fa-linkedin:hover { color: #d3d30e; }
+  .fa-facebook:hover { color: #3d2903; }
+  .fa-instagram:hover { color: #11c4e8; }
+  .fa-envelope:hover { color: #cf3607; }
+  .fa-twitter:hover { color: rgb(7, 7, 167); }
+
+  /* Form styling */
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}

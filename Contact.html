@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Bakery's Contact</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .social-links li {
+            display: inline-block; /* Display links horizontally */
+            margin-right: 15px; /* Add some space between links */
+            }
+
+            .social-links li a {
+            text-decoration: underline; /* Remove default underline */
+            color: #f6b2b2; /* Set a default text color */
+            }
+
+            .social-links li a:hover {
+            color: #3498db; /* Change text color on hover */
+            }
+
+            .social-links li a.facebook {
+            color: #0851ec; /* Facebook blue */
+            }
+
+            .social-links li a.instagram {
+            color: #f30530; /* Instagram red */
+            }
+
+            .social-links li a.tiktok {
+            color: #000; /* TikTok black */
+            }
+
+            body {
+                background: pink;
+                text-align: center;
+            }
+
+            #contact-form {
+                        padding: 40px 0;
+                        background: #f8ded8;
+                    }
+                    
+                    .form-container {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        padding: 0 15px;
+                    }
+                    
+                    .form-box {
+                        background: #f6b1b1;
+                        padding: 30px;
+                        border-radius: 8px;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                    }
+                    
+                    #contact-form h3 {
+                        text-align: center;
+                        margin-bottom: 30px;
+                        color: #333;
+                    }
+                    
+                    .form-group {
+                        margin-bottom: 20px;
+                    }
+                    
+                    .form-control {
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
+                        font-size: 16px;
+                    }
+                    
+                    textarea.form-control {
+                        min-height: 150px;
+                        resize: vertical;
+                    }
+                    
+                    button[type="submit"] {
+                        background: #78a9f8;
+                        color: rgb(131, 6, 6);
+                        border: none;
+                        padding: 12px 30px;
+                        font-size: 16px;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        transition: background 0.3s;
+                    }
+                    
+                    button[type="submit"]:hover {
+                        background: #f58ad5;
+                    }
+                    
+                    .text-center {
+                        text-align: center;
+                    }
+                    
+                    #sendmessage, #errormessage {
+                        display: none;
+                        text-align: center;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        border-radius: 4px;
+                    }
+                    
+                    #sendmessage {
+                        color: #4c60af;
+                        background: #2b322b;
+                    }
+                    
+                    #errormessage {
+                        color: #f44336;
+                        background: #ffebee;
+                    }
+                    
+                    .validation {
+                        color: #36d8f4;
+                        font-size: 13px;
+                        margin-top: 5px;
+                    }
+        </style>
+    </head>
+
+    <body>
+        <section id="hero">
+            <div class="hero-container">
+              <div class="wow fadeIn">
+                <div class="hero-logo">
+                  <img class="" src="aima's_delight.jpg" alt="Aima's Delight Pasteries" width="500" height="500">
+                </div>
+                
+            <h1>Contacts</h1>
+            <p>Emmanuella Aimalohi Ileogben</p>
+            <p>Phone: +234-811-430-4611</p>
+            <p>Email: <a href="mailto:emmanuellaileogben@gmail.com"></a>
+            <h2 id="}heading">Contact Us</h2>
+
+        <ul class="social-links">
+                <li><a href="https://www.instagram.com/your_instagram_handle/" target="_blank"><img src="Instagram_logo.jpg" alt="Instagram" width="100" height="100"></a></li>
+                <li><a href="https://www.facebook.com/your_facebook_page/" target="_blank"><img src="Facebook_logo.jpg" alt="Facebook" width="100" height="100"></a></li>
+                <li><a href="https://www.tiktok.com/@your_tiktok_handle/" target="_blank"><img src="TikTok_logo.jpg" alt="TikTok" width="100" height="100"></a></li>
+                  </ul>
+        </ul>
+    
+        <div class="row">
+            <div class="col-md-3 col-md-push-2">
+              <div class="info">
+                <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p>20, Ijaniki Street, Bucknor Estate, Isolo, Lagos State, Nigeria<br>
+                    1, Adebola Street, Off Adeniran Ogunsanya, Surulere, Lagos State, Nigeria
+                  </p>
+                </div>
+    
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <p>emmanuellaileogben@gmail.com<br>
+                    aidelokhaiileogben@gmail.com</p>
+                </div>
+    
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <p>+2349081976201;<br>
+                     +2348114304611</p>
+                </div>
+ 
+                <section id="contact-form">
+                    <div class="form-container">
+                        <h3>Send a Message</h3>
+                        <div class="form-box">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+        <footer>
+            <p>&copy Copyright. Aima's Delight Pasteries. 2025. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
